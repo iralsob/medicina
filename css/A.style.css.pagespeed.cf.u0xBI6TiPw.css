@@ -1776,5 +1776,15 @@ ul.slides li {
 	bottom: 5px;
 	font-weight: 900;
 	text-decoration: none;
+	transition: 0;
 	background: url(../images/meet.png) no-repeat 5%;
+}
+.ch-info-back a:hover {
+	background: url(../images/meet-h.png) no-repeat 5%, #1dd2c8;
+	color: #fff;
+	transition: 0;
+}
+.appointment .gender input[type="submit"]:hover {
+	color: #1dd2c8;
+	background: url(../images/meet.png) 5px no-repeat, #fff;
 }
