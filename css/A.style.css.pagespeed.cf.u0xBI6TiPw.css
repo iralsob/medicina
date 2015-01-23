@@ -1802,7 +1802,6 @@ ul.slides li {
 }
 .navbar-nav .active {
 	border-bottom: 3px solid #1dd2c8;
-	color: #1dd2c8!important;
 }
 .navbar-nav li:first-child .active {
 	border-bottom: 3px solid transparent;
