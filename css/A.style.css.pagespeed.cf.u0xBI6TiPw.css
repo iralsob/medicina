@@ -383,6 +383,15 @@ header .navbar {
 	height: 83px;
 	width: 40px;
 	display: inline-block;
+	opacity: .5;
+}
+.navbar-nav li:first-child .active{
+	opacity: 1;
+}
+.navbar-nav li:first-child a:hover{
+	background: url(../images/home-h.png) no-repeat center;
+	opacity: .5;
+	border-color: transparent;
 }	
 .navbar-nav li:last-child a {
 	margin-right:0;
@@ -1787,4 +1796,16 @@ ul.slides li {
 .appointment .gender input[type="submit"]:hover {
 	color: #1dd2c8;
 	background: url(../images/meet.png) 5px no-repeat, #fff;
+}
+.sl-slider .bg-img {
+	background-size: cover;
+}
+.navbar-nav .active {
+	border-bottom: 3px solid #1dd2c8;
+	color: #1dd2c8!important;
+}
+.navbar-nav li:first-child .active {
+	border-bottom: 3px solid transparent;
+	color: #1dd2c8!important;
+	opacity: 1;
 }
