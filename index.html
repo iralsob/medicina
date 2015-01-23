@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Medicina</title>
+<meta name="author" content="Themezinho">
+<meta name="description" content="Medical html5 template">
+<meta name="keywords" content="html, template, carousel, theme, zinho, medical, html5">
+
+<!-- SOCIAL MEDIA META -->
+<meta property="og:description" content="Medicina - Medical Care HTML5 Template">
+<meta property="og:image" content="http://www.acrocapoeira.com/medicina/preview.png">
+<meta property="og:site_name" content="Medicina">
+<meta property="og:title" content="Medicina">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.acrocapoeira.com/medicina">
+
+<!-- TWITTER META -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@themezinho">
+<meta name="twitter:creator" content="@themezinho">
+<meta name="twitter:title" content="Medicina">
+<meta name="twitter:description" content="Medicina - Medical Care HTML5 Template">
+<meta name="twitter:image" content="http://www.acrocapoeira.com/medicina/preview.png">
+
+<!-- FAVICON FILES -->
+<link href="data:image/png;base64,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" rel="apple-touch-icon-precomposed" sizes="144x144">
+<link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAByCAMAAAC4A3VPAAAC61BMVEUd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgf0sgg08kh08ki08kj08ol1Mom1Mon1Mop1Msq1csr1css1cwt1cwv1sww1s0x1s0y1s0z1s0018421844184418852M862M872M882NBA2dBB2dFC2dFE2tFF2tJI29NJ29NK29NL29NM29NN3NRO3NRQ3NVR3NVT3dVU3dVV3dZZ3tda3tdc39de39hf39hg39hi4Nlk4Nll4Nln4dpp4dtv4txw49x35N545N555N575d985d995d9+5eB/5uCA5uCB5uCC5uGE5uGF5+GH5+KK6OOM6OOO6eSR6eST6eWU6uWW6uWY6+ac6+ee7Oeg7Oij7eml7emm7emn7uqo7uqp7uqt7+uu7+uw7+yx7+yy8Oyz8Oy08O218O228e278e688u+98u++8u+/8u/A8vDD8/DF8/HF9PHG9PHH9PHO9fPQ9vTR9vTS9vTT9vTU9vTW9/XZ9/ba+Pbc+Pbc+Pfd+Pfe+Pff+ffg+ffi+fjj+fjk+vjk+vnl+vnm+vno+vnp+/rq+/rr+/rs+/rt+/vv/Pvw/Pvx/Pzy/Pzz/fz0/fz1/f32/f33/f34/v35/v37/v79///+//////8EEWzXAAAAY3RSTlMAAQIFBgcICQoMDQ8SEyAhIiMmKCorLi8yM0BBUllaW1xdXl9gdnd4eXp8fX+AjI2QkZKTlJudn7i5ur3AxMXJysvMzc7S09TV1tfY2eDh4uPk5ebn6err7O7w8fLz9Pj5+/2W7VCuAAAFjklEQVRo3s2beUAUVRzHh0tNFFSSYPMAATOhAwRRlCQjLFRCSEkkFH9AYtoppRWZHUqIZjclmpvRiV1KF1lqh9lBYuXRoV2aGmlowv7Z+83uzi6wy3u/3Tn8/qEzvzf8PjtvZn7v9978RpJICggbGjt6THrWzAKAgplZ6WNGxw4NC5C0Ut9BiZOKwIWKJo0a1Fd1nK/pkvS50I3mpl9s8lURGBqfCwLKjQ9Vh+cfNQGENSHK32tg7+E5QFLO8HO8AvaMyQOy8mJ6egz0GZwFHilrsI9nxIGXgcdKHegB0O+iOeCF5sT5UYkDLgcvlTaARowsBK9VGEnp1FGgihKFO7fPeFBJ4/uIEYMmg2qaHCRCDJkGKio7RCCETwdVNZ0b6kNmgMqawTnP4GxQXdn9uiMGXgkaKCOwm6FxHGiice4H0QTQSAluoxxopgg3kbxQO+T1LmO8fxpoqDRX4TYONFVcV+K5s7VFzu6SJ/ikgsZK7ZwPDQHNNaQjsVe29shrenVAxoAOiumQk+fpgczr7YQcAbroAqcokKsPMtcR3qNAJw1TkOKh7jazVQudbBVm8456s3ldqUDYU9IdYWLdHxarGh22kr0220+P8h3YE6F4QWBxncWuv+5VrKXH7MZTj4kOnL6iN0+FQrR8UeJA/q5Yf72BewNZ1xNMot36Hrrd3YC6x8m8SrZgl7fVcn2YSP0K25jXphvdNC77jbVu4Pq4VEZmiiK3Mqer3ba+xlp3cn1kIrEfUJDvu2ssb2atL/GdBDNktDByO3PausxN44d4oTfynUQzZJIwshK9Hr3fZVvNSdZ27Fa+kySGzBBGljS04SPpym/NGfw5z4mk7pIUUESIkUfQcX1Xe+nf2FAn4qIoQAqnhOU12H2WVzub533czswHbxLyES5FkIaCNf8g86lO1rfQeOhu0cR9JG34eQe971vbwbb8KLOdXCLoYaSUTEPe/LXMLHcyPSBf4bdFPSRLKcRRdr7M3OEw3CcTtwg7SJGu4B90Z1VV1UMO5mFG+PcZZb8RiV+J/+aJEncxctEmeVzevthuWI+7Z2psj0c97rWuEkdOlfJ54/I+22C4V7k/nsfdE2Xy9oO4fXw14crkSwWcI55tsw/AX9pNCw6yvfZt8zAX2o0ttZSbYZbEO2I/+vz+B/bP6W+Zdq5gtiW/oHEzwO3f4cauhaQbkIs8xQb7rXBXq5JtvILMFgziK+BNOSmZT7vnuR3Lws3xYoB3HXnPC/Z4c/j10/jfIhpxFvf2wbNshNJvHMhDdzDzZmW3tpiGzOc+JAfQ7R75WjY3N8tX9mm077IC/1tHzdinckPBWuV08HFfjhtPoH3lCdnYRJ4kTOQGvJItNuJ+HClWKkioxjHyQAUZmSIQ1t/4EzmfyJHACSl3+Uf0qVCyFMs/aHF1dXWlddMZ+TP+EDoyljhEq4CMoCUiaiDDaemWCkiWbhGSSlWQGaTUWRVkEmmCgBM7RD5i3f6RbX5ORkaTpkFMSzELedk678HNTWRkMGmyh/oUT3M9JkR4kpZyKjGTNqWVkwQ5+H3Q0CCH+6YFVKR1Sns+5U/K9jhGMUv7k+R+NdGWJ6y5s4PZvrGSSrzWV6L3LNyywUb87GF66EkgLzVZ9fiLR1paGs1lHqyohdIX1LxUmpHLhgYsjkoX6oMc4bzQfZ0exA4L3QYs5xvx0sKAVzNGvIAy4DWbES8TjXhlqumL4UI3xT/D9AiunZSoFTHxbCplkAKv0oJ4dWB3RSL9tShL6X+2Fd9I0nm6lxix88xRkzgtRKR4K3iKesQpQboXxQnXI/upFBMSKXWVuhc4GlLGKRlQrGpESa4hhcdGlFcbUkRuSKm8IR8EGPPZgyEfd9jVIywiLnms4xOWsclxkWE9aD7+B7vbvlhM4SO/AAAAAElFTkSuQmCC" rel="apple-touch-icon-precomposed" sizes="114x114">
+<link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAACplBMVEUd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sge0sgf0sgg08kh08ki08kj08ok08om1Mon1Moo1Msp1Msq1csr1cst1cwu1cwv1swx1s0z1s01184218431844184418852M862M882NA92NA+2dBA2dFB2dFC2dFD2tFF2tJH2tJI2tJJ29NN3NRQ3NRR3NVT3dVV3dZX3dZY3tZZ3tda3tdd39hf39hg39hi4Nln4dpp4dtq4dts4ttt4ttu4txw49xz491049125N535N555N565d975d995d9+5eCA5uCB5uCD5uGE5uGF5+GG5+GH5+KI5+KK6OOM6OOO6OOO6eSP6eSQ6eSS6eST6eWU6uWV6uWW6uaX6uaZ6+ab6+ec6+ed6+ee7Oeg7Oih7Oij7eml7emo7uqp7uqq7uqr7uus7uut7+uv7+yw7+yx7+yz8Oy18O248e658e668e688u+98u+/8u/A8vDD8/DE8/HF9PHH9PHJ9PLL9fLM9fLM9fPR9vTT9vTV9/Xa+Pbb+Pbd+Pff+ffg+ffh+fji+fjk+vjm+vno+vnr+/rs+/rt+/vu/Pvv/Pvw/Pvx/Pzz/fz0/fz2/f33/f34/v35/v36/v77/v78/v79///+///////BoPOpAAAASXRSTlMAAwQFBggJCg8QGh0eJjM2PD1BQkZUVVtdX2JlZm5yc3x9fn+JkpOVlq+xtbi5wcLD0NHS09rf4Obn6evs7e7v8PLz9fj5+/z+LpKwngAAA9JJREFUWMO9mOdfEzEYxyMOQEVUcKBUBZUpolK3IjigUdwD9wTcGxG3CC4ERBy4EXHhxEXdeyOgOBAr4/lPTO5O0OYS2nIff296efrct+mTJ08GQnzVa9aui6++XyjGof30vl3aNauHbFATnd8QbKYhfrrG1lEaunU3YFWFd2vT0GKMg8cALNAADweLMA06BuNaNLhjg9o5LXtjC9S7ZS0Yex8DtkgGH3sRx0mPLZbeic9xDcFWKMSVx2kbhq1SWFt1TnsDtlKG9mqc1uHYaoW3YjkuI7ANGuHCjFcItkkhZmNnr8c2Sv9vPnljm+X9N6eFwXaQoXkNxy4I10G97KpBHXCd1KG6/gTXDRT8pz514jjMSj2blZWdMVlpjknKvnsh6/gi1tFD5jQaqM5Z8QYkpSnteXKzeCvjObCRBHJT50xROFU7FcOcUtlQuoTxdZNAgeqgRMK4vi9lf8IYxTAqPj0l+fxPgCOMbyDlNOXk0B6A2xGs+QzATTaXmhCQjhPqZICHYxlrxBWAq6yzjoACOKAtJBypLL4K4ADrHIBQ/WEc0NgHABXJZsaNRQAFc1nnYXbImZtnUWSUipf9Y5rxBaBklZqzM3LnZ+w28trrqL8MkffJ3z2k6uuOugpyP4O8Z4yuaZ8g7aPqrl7IXwAal0fezBtVHWgTwNNJ6q7+SK00jh6tvDzuBiHtVqybyYC9nM/5zSDUn7FFn7p3z7hjpPQ8+yNAUbz0uPQ9gGkdr/P90VBz0+JCOqEqT8mt1d8BPk2nvXxEONu5UQhFjOkywZSTeZYWGxc7AeNMGvBpeHw2+TwpiCdilrOvAHfiXpA+/Sr/9Wi5PFSZeC8N+zQ+ZzgaZG76BqVz6YyV9HYxjnwG8ONiMcCHiYIODUJ9zU0kC43xt8j0MJWTYTo9Ei94JTELVovKbR/U09yUS16qIDFKWbOW9CWPjN76nzRsm4R1uyebkDMf09+voIG9A3CNpkFiJUCOeAHwV5kiM0/mG+8m0NpjVEBRZVCZIAZ5qU7aCDmzq0ELTVCVJAa5C8qIVSBnfmGzCkQKG7fUyiCpPseYahYldQUIir8MyqUP88n47xKCdILlSC5k72hhPVYFJTHCrU1TurD14H6/sgygMD35EsmrfGGHAkVLNtU5ZcrBjw1CkJtwE0GL0OHPEuf5hkgRR9lEIE+BT1xO0dcnB6eKk6iz1hstzbZ+2m1GNdsea7dh1+4IodmhRrtjlnYHP+2OotodjrU7rmt3gaDdlQZNA8suWVw0ufYJtuTah8jRU3wR5en4v6/GNLyss+H68Dd+Ok8+DmvZ7gAAAABJRU5ErkJggg==" rel="apple-touch-icon-precomposed" sizes="72x72">
+<link href="data:image/png;base64,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" rel="apple-touch-icon-precomposed">
+<link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAA8FBMVEUd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sge0sgg08kh08kr1csv1swy1s001843184/2dBA2dFI29NN3NRR3NVU3dVV3dZX3dZe39hl4Nlo4dpq4dt35N555N5+5eCB5uCF5+GI5+KK6OOP6eSa6+ag7Oii7Oik7emn7uqs7uut7+uw7+y78e698u/A8vDE8/HM9fLN9fPO9fPQ9vTW9/XX9/XY9/bZ9/ba+Pbe+Pfi+fjj+fjl+vn2/f39ev3SAAAAGXRSTlMABgkqKyyOj5CUlZi7vNTW19jz9Pj5+vz9464knwAAALVJREFUGNNtj9USwkAMRQO00KJFy4Xi7u7uDv//N4TtDC9wHjKbM7u5WSLGZtdCIZ/dRiYWNQpB1GUVvRtfPBYWTqCymyXRunYBlUjSgfk8ayDVvAG6RA6+2TikuE6mXBykwUhgtI6jfUqz0CiM4bqW2XZzz9JnbJjF4/JaVff3jsgJ8JPBsnIo9o5msFcMxbZQX5pCIZljY5v+eCF6XRaLoXze54Vw/lv953OMpPgjQa8if85vw1wZsryMBBYAAAAASUVORK5CYII=" rel="shortcut icon">
+
+<!-- CSS FILES -->
+<link href="css/A.ionicons.min.css+jquery.fancybox.css+owl.carousel.css+datepicker.css+animate.css+custom.css+bootstrap.min.css,Mcc.oF7uUvHlcN.css.pagespeed.cf.mF2sS-ybJn.css" rel="stylesheet"/>
+
+
+
+
+
+
+<link href="css/A.style.css.pagespeed.cf.u0xBI6TiPw.css" rel="stylesheet">
+<script type="text/javascript" src="js/modernizr.custom.js.pagespeed.jm.cQub6bXQBX.js"></script>
+<noscript>
+<link rel="stylesheet" type="text/css" href="css/A.styleNoJS.css.pagespeed.cf.FpTz0awGGX.css"/>
+</noscript>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head><body>
+<header>
+  <nav class="navbar navbar-default navbar-header" role="navigation">
+	<div class="container">
+	  <div class="row">
+		<div class="col-xs-12"> <a href="index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALsAAAArCAMAAAAXKAkbAAACB1BMVEUS1sx6e4b///8S1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1sx6e4YS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1swS1sx6e4ZKCyyVAAAAq3RSTlMAAAACAwQGBwkKCw0PEBAREhQVFhcYGRocHh8gICEiIycpKiwtMDEyMzQ1Njc6Oz0+P0BERUdJSkxOUFBRVFZcXmBlZ2hqa2xub3BwcXJ0dXh7fYCAg4WGiIuPkJGSlJeam5ydnqCio6Smp6ipqqusrbCys7W2t7i7vb6/wMDIysvMzc7Q0dTV19jZ2tvc3t/g4OHi4+Xm5+jp6+3u7/Dw8vP09fb3+Pr7/f4MCmwUAAAFVElEQVRYw9XZ6XvURBgA8HdtK0UwiEqVGq2Iq0ItrRHPFWELsuLWs8FrlXoFREGNing0UnDlEAXjAQLWgAW13fyRzjt3ru1u7eOTnQ/tHHmmv0zezJECRNINFZaWa3UDlcqH45XK1h6SvypPKUof+6XB0h5V132U1518IMf2rrGGSL/dLmt7zovKyw/m1z4g6Y3PupX9Z1n749W5tb+FvkMTmG7TqkdoDUbT7Ghu7fsIb/IaSE9rfyKt23Nr30t090FWeoG0Hsi1/e0set8UaX0mt/b9RDezNsP+Lr4MO3JrH0TeuTtT6ZsukbbzK3Nr756Yxal9ZRr9b7yvJ9T87nqe5xgFmYqk7JUKphdNRcMVWccum+xaG4ssb9a8MAwDt0xLeK1rsPai3rGpFxzxN6PEsygcT9J7fseGMW1dDTFVld3Hsl2wwmiyoxXsbpEbWpiryRYfyyFroO0+HxhbXkySQ68opdo3YmQ0no/Tl7w/R6pPXRu3+5LOiPPaw6Co2x29qRy1k84SdoOPQKodNv6B+Edjta9g5elbIW6XI1BwW7TT4RR2O3pbZtQemAl7mV+Zboc3kHlsS6Ru3TlSd6kfknaP92KGGfZqvAKHk9uNgEk8T3QWsfPh1e2uekRp9hVfUnyfVnUXfQtehRR7yN+oWtSuXgNeQQbbKHli0Li9KoVGnUVg1M461+yGuH833Q5LKf4DVXEHpe+CVDsbGz6C2XZ92IrC7qlXhnTgx+OdP1XNXpUPz5D2m4eGhu5R+DOE+ufjsrwb6V9Auj009U7nsZv8gXN7oE1VFtXF7JSs2enTqaugAVi1kx449q8W2G1Y/GcTnx3HsTQzkmW35QQ5v51pbWEP9dmvkGb3I3Z6635JBQ10HeOb86P9Av8kFi/20vzdmL8gd2gJe0AeXymM2S2ezJjda8Pu8fFVdvp0awUVNLB5VpwsPhfAZadIaW7fEpK9/hC2jEKmHbv34vZQBeyC7SYfGWX32dviyqCB44j75lvy48rXJB1YT4T9P2DlawA3HsHMweXpdi+gz9WUw9SW3WpuZ3OXrexFHkV0kq9T+2VyHNoLt8zIg91ziJ/Gndd6eJme/5ZChp31i6tjUFp0O5u8TGmvsZDhMyXOEUAW0gtdAG+qs+pTYiU98+IV/LUKsuymHH3HWuyY4ZHuSLsvMq6Yn+i474Ger5T99E0E+bosjnZl2tWGxLQW+10VWrGBUD3XRNDACfQdpvE+NTVFo/8xVB5k8r+2RlaumL0oB9hqZY7027PL+QuvcmJ7CzIusEUOMK4/6zDzMCo3XKSVk9DMLqYYqyV7bG3St9GmmWKPLFJBcl8E3bs4/TjuEzdIOwzjnv3EQHN7Wawhrdhruk1M42xP4IeelbRbyl6K7+l8uid46VcEf0SXJs1Oo+k9aG5nYVBuxV50U/diuDAbDgvhuF0GipUIGZzpEbR6eHh4kNl0+/d4R/PZq3xtjdjVma+U2AM70s43zn7NCVL2wCyUeKRYBt9Rs1Rn02XM1rbdqNq2VYjZm5w9gsyzBxnIhF1cYpX1Mwd7Yv5/tkdio90zX73Jma+g764tVz/r8SdW/H/t7PQv7YaK4qBcSLPzyaCkH5fETTsLtePnCFuz048b5cQ3jpJW4drilKW+YVgOfdnrtiG+cXgm/cbhio4d2o3Hvn6IRMu1hdrz938PGEH7/Sz/Hcl+2kH2NXjge5Z9PMXszg6yw8c48NvwEIvD3ujrJPtmuj94Z2KC7tEml3WSvfew2gw35h6BTrLDCoWf2zHYWXa4bjunf3JvsjHndoCHnj47Pb270gs5t/8Li/2pjd8Iw+sAAAAASUVORK5CYII=" alt="Image"></a>
+		  <ul class="social-media">
+			<i class="top-phone"></i>8 (800) 700 77 77
+		  </ul>
+		  <!-- end social-media -->
+		  <ul class="nav navbar-nav">
+			<li><a href="#home"><i class="top-home"></i></a></li>
+			<li><a href="#services">Наши услуги</a></li>
+			<li><a href="#prof">Специалисты</a></li>
+			<li><a href="#about">О нас пишут</a></li>
+			<li><a href="#partners">Наши партнеры</a></li>
+		  </ul>
+		  <!-- end nav --> 
+		</div>
+		<!-- end col-12 --> 
+	  </div>
+	  <!-- end row --> 
+	</div>
+	<!-- end container --> 
+  </nav>
+  <!-- end nav --> 
+</header>
+<!-- end header -->
+<section class="slider" id="home">
+  <div class="demo-2">
+	<div id="slider" class="sl-slider-wrapper">
+	  <div class="sl-slider">
+		<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+		  <div class="sl-slide-inner">
+			<div class="bg-img bg-img-1"></div>
+			<div class="content">
+			  <h2>We have more <u>+100</u><br>
+				surgens to take care of you</h2>
+			  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbUAAABNCAMAAAAWwgovAAACrFBMVEUA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08lUA+yPAAAA43RSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcZGhscHR4fICEiIyQlJicoKSorLC0uLzAxMjM0NTY3ODk6Ozw9PkBBQkNERUZHSElKS0xOT1BRUlNUVldYW1xdXl9gYWJjZGVmZ2lqa2xtbm9wcnN0dXZ3eXp7fH1+f4CBg4eIiYqMjY6PkJGSk5SVlpeYmZqbnJ6foKGio6Smp6ipqqutrq+ys7S1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" alt="Image"><br> </div>
+			<!-- end content --> 
+		  </div>
+		  <!-- end sl-slide-inner --> 
+		</div>
+		<!-- end sl-slide -->
+		<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+		  <div class="sl-slide-inner">
+			<div class="bg-img bg-img-2"></div>
+			<div class="content">
+			  <h2>Our <u>MRI</u> room has<br>
+				been renew for our patients</h2>
+			  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbUAAABNCAMAAAAWwgovAAACrFBMVEUA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08lUA+yPAAAA43RSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcZGhscHR4fICEiIyQlJicoKSorLC0uLzAxMjM0NTY3ODk6Ozw9PkBBQkNERUZHSElKS0xOT1BRUlNUVldYW1xdXl9gYWJjZGVmZ2lqa2xtbm9wcnN0dXZ3eXp7fH1+f4CBg4eIiYqMjY6PkJGSk5SVlpeYmZqbnJ6foKGio6Smp6ipqqutrq+ys7S1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" alt="Image"><br> </div>
+			<!-- end content --> 
+		  </div>
+		  <!-- end sl-slide-inner --> 
+		</div>
+		<!-- end sl-slide -->
+		<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+		  <div class="sl-slide-inner">
+			<div class="bg-img bg-img-3"></div>
+			<div class="content">
+			  <h2>Online <u>appointment</u> so<br>
+				easy to get from our new website</h2>
+			  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbUAAABNCAMAAAAWwgovAAACrFBMVEUA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08lUA+yPAAAA43RSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcZGhscHR4fICEiIyQlJicoKSorLC0uLzAxMjM0NTY3ODk6Ozw9PkBBQkNERUZHSElKS0xOT1BRUlNUVldYW1xdXl9gYWJjZGVmZ2lqa2xtbm9wcnN0dXZ3eXp7fH1+f4CBg4eIiYqMjY6PkJGSk5SVlpeYmZqbnJ6foKGio6Smp6ipqqutrq+ys7S1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" alt="Image"><br></div>
+			<!-- end content --> 
+		  </div>
+		  <!-- end sl-slide-inner --> 
+		</div>
+		<!-- end sl-slide -->
+		<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+		  <div class="sl-slide-inner">
+			<div class="bg-img bg-img-4"></div>
+			<div class="content">
+			  <h2>30% <u>discount</u> for <br>
+				special thereatment patients</h2>
+			  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbUAAABNCAMAAAAWwgovAAACrFBMVEUA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08kA08lUA+yPAAAA43RSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcZGhscHR4fICEiIyQlJicoKSorLC0uLzAxMjM0NTY3ODk6Ozw9PkBBQkNERUZHSElKS0xOT1BRUlNUVldYW1xdXl9gYWJjZGVmZ2lqa2xtbm9wcnN0dXZ3eXp7fH1+f4CBg4eIiYqMjY6PkJGSk5SVlpeYmZqbnJ6foKGio6Smp6ipqqutrq+ys7S1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" alt="Image"><br> </div>
+			<!-- end content --> 
+		  </div>
+		  <!-- end sl-slide-inner --> 
+		</div>
+		<!-- end sl-slide --> 
+	  </div>
+	  <!-- sl-slider -->
+	  
+	  <nav id="nav-dots" class="nav-dots"> <span class="nav-dot-current"></span> <span></span> <span></span> <span></span> </nav>
+	  <!-- end nav-dots --> 
+	</div>
+	<!-- end sl-slider-wrapper --> 
+  </div>
+  <!-- end demo2 --> 
+</section>
+<!-- end slider -->
+<section class="appointment">
+  <div class="container">
+	<div class="row">
+	  <h2>Appointment</h2>
+	  <form>
+		<div class="col-xs-4 max-width no-padding">
+		  <input type="text" placeholder="Введите ваше имя">
+		</div>
+		<!-- end col-4 -->
+		<div class="col-xs-4 max-width no-padding spacing">
+		  <input type="text" id="phone" placeholder="Ваш номер телефона">
+		</div>
+		<!-- end col-4 -->
+		<div class="col-xs-4 max-width no-padding no-requiered">
+		  <input type="text" placeholder="Ваш e-mail (необязательно)">
+		</div>
+		<!-- end col-4 -->
+		<div class="col-xs-12 no-padding">
+		  <hr>
+		</div>
+		<!-- end col-12 -->
+		<div class="col-xs-4 no-padding date max-width">
+		  <input type="text" class="datepicker" data-date-format="mm/dd/yy" placeholder="Выберите дату" maxlength="8">
+		</div>
+		<!-- end col-4 -->
+		<div class="col-xs-4 no-padding department spacing max-width">
+		  <select>
+		  	<option value="" disabled selected>Выберите специалиста</option>
+			<option>Cardiology - Steve Johnson</option>
+		  </select>
+		</div>
+		<!-- end col-4 -->
+		<div class="col-xs-4 no-padding gender max-width">
+		  <span>Ваш пол: </span>
+		  <input id="male" type="radio" name="sex" checked>
+		  <label for="male"></label>
+		  <input id="female" type="radio" name="sex">
+		  <label for="female"></label>
+		  <input type="submit" value="Записаться">
+		</div>
+		<!-- end col-4 -->
+	  </form>
+	  <!-- end form --> 
+	</div>
+	<!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+<!-- end appointment -->
+<section class="home-services text-center wow fadeInUp" id="services">
+  <div class="container">
+	<div class="row">
+	  <div class="col-xs-12 wow fadeInUp">
+		<h2>Наши услуги</h2>
+		<h5>Consectetuer adipiscing elit, sed diam nonummy</h5>
+	  </div>
+	  <!-- end col-12 -->
+	  <div class="col-xs-3">
+		<div class="content">
+		  <div class="line">
+			<div class="icon"><img src="images/diagnos.png" alt="Icon"> </div>
+		  </div>
+		  <h3>Диагностика</h3>
+		  <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+		</div>
+		<!-- end content --> 
+	  </div>
+	  <!-- end col-3 -->
+	  <div class="col-xs-3">
+		<div class="content">
+		  <div class="line">
+			<div class="icon"><img src="images/diagnos.png" alt="Icon"></div>
+		  </div>
+		  <h3>Диагностика</h3>
+		  <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+		</div>
+		<!-- end content --> 
+	  </div>
+	  <!-- end col-3 -->
+	  <div class="col-xs-3">
+		<div class="content">
+		  <div class="line">
+			<div class="icon"><img src="images/diagnos.png" alt="Icon"></div>
+		  </div>
+		  <h3>Диагностика</h3>
+		  <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+		</div>
+		<!-- end content --> 
+	  </div>
+	  <!-- end col-3 -->
+	  <div class="col-xs-3">
+		<div class="content">
+		  <div class="icon"><img src="images/diagnos.png" alt="Icon"></div>
+		  <h3>Диагностика</h3>
+		  <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+		</div>
+		<!-- end content --> 
+	  </div>
+	  <!-- end col-3 -->
+	  <!-- end col-12 --> 
+	</div>
+	<!-- end row -->
+	  <!-- end col-12 -->
+	  <div class="col-xs-3">
+		<div class="content">
+		  <div class="line">
+			<div class="icon"><img src="images/diagnos.png" alt="Icon"> </div>
+		  </div>
+		  <h3>Диагностика</h3>
+		  <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+		</div>
+		<!-- end content --> 
+	  </div>
+	  <!-- end col-3 -->
+	  <div class="col-xs-3">
+		<div class="content">
+		  <div class="line">
+			<div class="icon"><img src="images/diagnos.png" alt="Icon"></div>
+		  </div>
+		  <h3>Диагностика</h3>
+		  <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+		</div>
+		<!-- end content --> 
+	  </div>
+	  <!-- end col-3 -->
+	  <div class="col-xs-3">
+		<div class="content">
+		  <div class="line">
+			<div class="icon"><img src="images/diagnos.png" alt="Icon"></div>
+		  </div>
+		  <h3>Диагностика</h3>
+		  <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+		</div>
+		<!-- end content --> 
+	  </div>
+	  <!-- end col-3 -->
+	  <div class="col-xs-3">
+		<div class="content">
+		  <div class="icon"><img src="images/diagnos.png" alt="Icon"></div>
+		  <h3>Диагностика</h3>
+		  <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+		</div>
+		<!-- end content --> 
+	  </div>
+	  <!-- end col-3 -->
+	  <!-- end col-12 --> 
+	</div>
+	<!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+<!-- end home-services -->
+
+<section class="professionals" id="prof">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 text-center wow fadeInUp">
+				<h2>Наши специалисты</h2>
+				<h5>Consectetuer adipiscing elit, sed diam nonummy</h5>
+				<div class="flexslider" id="slides">
+				<ul class="slides">
+					<li>
+						<div class="ch-item">			
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<img src="images/doctor1.jpg">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+								</div>
+								<div class="ch-info-back">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+									<div>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<a href="">Записаться на прием</a>
+								</div>  
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">			
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<img src="images/doctor1.jpg">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+								</div>
+								<div class="ch-info-back">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+									<div>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<a href="">Записаться на прием</a>
+								</div>  
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">			
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<img src="images/doctor1.jpg">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+								</div>
+								<div class="ch-info-back">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+									<div>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<a href="">Записаться на прием</a>
+								</div>  
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">			
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<img src="images/doctor1.jpg">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+								</div>
+								<div class="ch-info-back">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+									<div>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<a href="">Записаться на прием</a>
+								</div>  
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">			
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<img src="images/doctor1.jpg">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+								</div>
+								<div class="ch-info-back">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+									<div>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<a href="">Записаться на прием</a>
+								</div>  
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">			
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<img src="images/doctor1.jpg">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+								</div>
+								<div class="ch-info-back">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+									<div>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<a href="">Записаться на прием</a>
+								</div>  
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">			
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<img src="images/doctor1.jpg">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+								</div>
+								<div class="ch-info-back">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+									<div>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<a href="">Записаться на прием</a>
+								</div>  
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">			
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<img src="images/doctor1.jpg">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+								</div>
+								<div class="ch-info-back">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+									<div>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<a href="">Записаться на прием</a>
+								</div>  
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">			
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<img src="images/doctor1.jpg">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+								</div>
+								<div class="ch-info-back">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+									<div>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<a href="">Записаться на прием</a>
+								</div>  
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">			
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<img src="images/doctor1.jpg">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+								</div>
+								<div class="ch-info-back">
+									<h4>Dr. Addison Alexander</h4>
+									<p>Диагност</p>
+									<div>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+									<a href="">Записаться на прием</a>
+								</div>  
+							</div>
+						</div>
+					</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="latest-news" id="about">
+  <div class="container">
+	<div class="row">
+	  <div class="col-xs-12 text-center wow fadeInUp">
+		<h2>О нас пишут</h2>
+		<h5>Consectetuer adipiscing elit, sed diam nonummy</h5>
+	  </div>
+	  <!-- end col-12 -->
+	  <div class="col-xs-6 no-padding wow fadeInUp" data-wow-delay="0.2s">
+		<div class="left">
+		  <div class="article-image"><img src="images/ximage8.jpg.pagespeed.ic.dISXdchfr1.jpg" alt="Image"> </div>
+		  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAA2CAMAAADnEdnLAAAAzFBMVEX///8d0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgg08kh08kn1Mov1sw418452M892NBE2tFF2tJO3NRU3dVX3tZb3tdv4txw49xx49x049195d9/5uCL6OOM6OOO6OOP6eSZ6+ae7Oef7Oiu7+vR9vTW9/XX9/Xh+fjo+vnp+/rr+/rv/Pvz/fz1/f32/f33/f34/v37/v7////HnlJwAAAAGXRSTlMAAQQGCRgeJi02X2t0gYu3wcvS5O3y9vn8lLzdrgAAAOxJREFUOMvt00cSgkAQQNFWDJgVE2DAgDmAOYva97+ToIUSmlm78K+m6tWEXgxIzODPP879Povl7U5m8BhxHMz1A+KxHsgammkk19qDxdXi62LQrnl4trmjo/tm7uLWCV2dWu7DO2ennjveu7uXr166/pf3brbeetRge5v31Nzyw+aHTHDze3eTYNXat15bZ6gED9FYKZKkLA0cETzRG+9FQ5/+v8HvcLHIYDEbiWTFIBYSYJYQSK5mOHjFZap+LvDwiS94uJIOg6NwuuLkfBw8xfMfLqdC4CuUKr85FwOyWM7kUhICS5YgCoyiT4NTpK2sIvC+AAAAAElFTkSuQmCC" alt="Image" class="rated-article">
+		  <h3><strong>SPECIAL</strong> THREATMENT</h3>
+		  <small>Posted <strong>2nd March </strong>by George Washington</small>
+		  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+		  
+		  <small>
+		  Ссылка на источник <a href="index.html#" class="">https://gihub.com/iralsob/services_lab</a> 
+		  </small></div>
+		<!-- end left --> 
+	  </div>
+	  <!-- end col-6 -->
+	  <div class="col-xs-6 no-padding wow fadeInUp" data-wow-delay="0.2s">
+		<div class="right">
+		  <div class="article-image"><img src="images/ximage9.jpg.pagespeed.ic.kfRnFAwefa.jpg" alt="Image"></div>
+		  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAA2CAMAAADnEdnLAAAAzFBMVEX///8d0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgd0sgg08kh08kn1Mov1sw418452M892NBE2tFF2tJO3NRU3dVX3tZb3tdv4txw49xx49x049195d9/5uCL6OOM6OOO6OOP6eSZ6+ae7Oef7Oiu7+vR9vTW9/XX9/Xh+fjo+vnp+/rr+/rv/Pvz/fz1/f32/f33/f34/v37/v7////HnlJwAAAAGXRSTlMAAQQGCRgeJi02X2t0gYu3wcvS5O3y9vn8lLzdrgAAAOxJREFUOMvt00cSgkAQQNFWDJgVE2DAgDmAOYva97+ToIUSmlm78K+m6tWEXgxIzODPP879Povl7U5m8BhxHMz1A+KxHsgammkk19qDxdXi62LQrnl4trmjo/tm7uLWCV2dWu7DO2ennjveu7uXr166/pf3brbeetRge5v31Nzyw+aHTHDze3eTYNXat15bZ6gED9FYKZKkLA0cETzRG+9FQ5/+v8HvcLHIYDEbiWTFIBYSYJYQSK5mOHjFZap+LvDwiS94uJIOg6NwuuLkfBw8xfMfLqdC4CuUKr85FwOyWM7kUhICS5YgCoyiT4NTpK2sIvC+AAAAAElFTkSuQmCC" alt="Image" class="rated-article">
+		  <h3><strong>DISEASE</strong> CENTER</h3>
+		  <small>Posted <strong>2nd March </strong>by George Washington</small>
+		  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. </p>
+		  <small>
+		  Ссылка на источник <a href="index.html#" class="">https://gihub.com/iralsob/services_lab</a> </div>
+		  </small> </div>
+		<!-- end right --> 
+	  </div>
+	  <!-- end col-6 --> 
+	</div>
+	<!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+<!-- end latest-news -->
+
+
+<section class="logos" id="partners">
+  <div class="container">
+	<div class="row">
+	  <div class="col-xs-12 text-center wow fadeInUp">
+		<h2>Наши партнеры</h2>
+		<h5>Consectetuer adipiscing elit, sed diam nonummy</h5>
+	  </div>
+	  <!-- end col-12 --> 
+	</div>
+	<!-- end row -->
+	<div class="row">
+	  <div class="owl-logos wow fadeInUp">
+		<div class="col-xs-12 item"> <img src="images/xpartner-logo1.jpg.pagespeed.ic.t6GwdUCQSH.jpg" alt="Image"> </div>
+		<div class="col-xs-12 item"> <img src="images/xpartner-logo2.jpg.pagespeed.ic.q9uguyE6hy.jpg" alt="Image"> </div>
+		<div class="col-xs-12 item"> <img src="images/xpartner-logo3.jpg.pagespeed.ic.MDQVVL52km.jpg" alt="Image"> </div>
+		<div class="col-xs-12 item"> <img src="images/xpartner-logo4.jpg.pagespeed.ic.-v5Tf7ML6Y.jpg" alt="Image"> </div>
+	  </div>
+	  <!-- end owl-logos --> 
+	</div>
+	<!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+<!-- end logos -->
+<footer>
+  <div class="container wow fadeInUp" data-wow-delay="0.2s">
+	<div class="row">
+	  <div class="col-xs-3 address"><i></i>121 King Street, Melbourne Victoria 3000 Australia</div>
+	  <div class="col-xs-3 phone"><i></i>8 (800) 700 70 70</div>
+	  <div class="col-xs-3 email"><i></i>support@medical.ru</div>
+	  <div class="col-xs-3"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAcCAMAAACd34usAAACzVBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9LpYSEAAAA7nRSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8wMTIzNDU2Nzg5Ojs8PT4/QEFCQ0RFRkhJSktMTU9QUVJTVFVWV1laW1xdXl9gYWJjZGVnaGlqa21ub3BydHd4eXp7fH1+f4CBgoOEhYaHiImKi4yNjpCRlJWWl5iam5ydnp+goaKjpKWmp6ipq6ytrq+wsbKztLW2t7i5u7y9vr/AwcLDxMXGx8nKy8zOz9DR0tPU1dbX2Nna29zd3t/g4eLj5OXm5+jp6uvs7e7v8PHy8/T19vf4+fr7/P3+l6GRpgAABQ5JREFUSMe91vl/TFcYx/FvpJIgCWFkYiSTkERaFLWU0kXVVnsXaicJjVaJotRSqqoLWtEqSktLqViqGEXtVWpLSCZIMiEZWybJ5PM39Id7ZyLjZ3l+mec59zXnfWfOc8+5khlhH6xduWp1T6MIn/Pzr6tWPKc6iLBDAJw0qucBqBxUB/CHQN6NwtlGFftvyfVSyGv85OF93BnYPMbmKxvEWRJ2QP8nD+/ibODQNHjjycPbYELtkdgSaP/k4f5QPuDRgSYHYYuRvjg1NcEcHZrxpuzpo41It9vSxowePX5Ej3BJYSPSRjWW1GrK3LmTLFLj0ZPeCmozeYrxoAyYNiJEkhLTU3vXlrMgJ+KRei3kmvWfcMjIhgORk/HFokzjsyJnhtQKeEFaVAyQn6G2QNwsqGwnyeKmMs7oJR7Ya8Hh++DgU/5yLNzr52886OW7BU/UJD+8Zr4/XSl7OXTTR76BYdFAciawU5KtDHeCpLYA6QFr6oFvfEWiC8bVNB5skqTOgLvJeHjocDgcDsfEOXDf4fgPoH2oG2+SBbi/fr0Hqobch9YzAHpLMYW47JJmAewOWOa+ZZBm3sR1+F6PwhXxktb74EvmlaXwtxTyPrAg6A7eltOhqo/0Gg8ye3l88HE/HHQSoDJRktRo3HtTW0uSUsGVLEnaDqdUC2aRZHUHwkvguCQdgc22m3hj1sEeSeqXokR8MKNkM+BnwX0VMiQp5QLgMjptHeSESpoJzqQAuDBcmfhgZ+dOXbp0baYlcEKSvoRdyU6qLRtgtfmtjiZc6CFP4UW47NIc+OJds1U3AZD/ao+X66npDVgr9b4HQ2ttLg+rYKwuQ5UBV5c/LC/3zPPDy+C3xAIqkn6pWaIOJrxkI4zULVx26Rz0scLDZEllnH/pawBOd1KrMng9shRm1N7VHmwqZfcI2HnMgI3I8sMrDPhe9wOPwxk2uNbhAq54vQKlUToJmZLc/KiOxkQ5TZQKBUdhf8B2yqhtlJVSPfiw2dUH9h84eGi8H/4UdiQV4LVthLUB8MfaC1vP4rJrOeyTFsMBSU5Ysw+O/JELE6VlAGciA+E+PQGyg64Y8JWa5johSathR2IB3ujNkGVe62TCn6t9BVTgilQOFB09cRV4RpoCwLZ6mg1TpYZ7oaRX4AHCYBUDg3XNgC/WPE5HJek8/NC8EG+LLDgmSTPHKNmEP5PWALiCO/q3G+ZJyiy4XfxdqDQHJkvqCpsfO7kYp6VwKyjYhK9ZmlkslhYhi+FcSkr3rcB0leKNGw7MCg/PhOxBD/ywzQ0Uhy4H742i4gIPxlHYPNEuSfMMuAdseByeoHjH2amKMOHK3Jzc3Nxb02b7f0KFLcKN9+mGRcDpM8DFHh4/rAVAfspFWGiNT7BMgOoONdOb8MvwUwB8ENKkoEZSkxKISvNrqxf605FqXQ09NcSs7yfGAMmz4StJETfh0lwgRZJUBEtqwakGHPhXZ90tHGa+mf1192LEsFKnEbenp5c6nc6Cm5fX9JZiL7jyOkt9s6ugcks3tXEW5tsml9ydKUlvF7myv71zZ3ewJOmTEteOmukXwzuSusP2ADgiwRZipk0TooPq261GxIaF2q1Wq7VFlCQFN4+Nri9Jye3aJUkKttqiFRob30CS1LKlpWlsnJErKLZldM30s2CapL6wTnUaXaCof2SXszC8bmH9DlzyQF6DOoZj9gDwz0DVeWQcLjk1P6RurP8BpinFfVef3AoAAAAASUVORK5CYII=" alt="Image" class="pull-right">
+		<p class="copyright">Copyright © 2014 , Medicina</p>
+	  </div>
+	  <!-- end col-3 -->
+	</div>
+	<!-- end row --> 
+  </div>
+  <!-- end container --> 
+</footer>
+<!-- end footer -->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<script src="js/main.js"></script>
+<script type='text/javascript' src="js/jquery.min.js.pagespeed.jm.YSzgc-BSX9.js"></script> 
+<script src="js/bootstrap.min.js.pagespeed.jm.Cw2s5YBKHw.js"></script> 
+<script src="js/owl.carousel.js.pagespeed.jm.SNWYlsIqGp.js"></script> 
+<script src="js/wow.js.pagespeed.jm.rwL0ucL6dt.js"></script> 
+<script src="js/jquery.stellar.js"></script> 
+<script src="js/smooth-scroll.js.pagespeed.jm.rjmcEQAESE.js"></script> 
+<script src="js/queryloader2.min.js.pagespeed.jm.L447Iho-vv.js" type="text/javascript"></script> 
+<script src="js/bootstrap-datepicker.js.pagespeed.jm.pEV87OO2D1.js"></script> 
+<script src="js/jquery.fancybox.js.pagespeed.jm.hIBEZ7J8Mq.js"></script> 
+<script src="js/jquery.maskedinput.js+jquery.ba-cond.min.js.pagespeed.jc.vrfqH6vasF.js"></script><script>eval(mod_pagespeed_EWZ1aPg732);</script> 
+<script>eval(mod_pagespeed_Eh0MICsibh);</script> 
+<script src="js/jquery.slitslider.js.pagespeed.jm.WwN2Apio97.js" type="text/javascript"></script> 
+<script>//<![CDATA[
+$(function(){var Page=(function(){var $navArrows=$('#nav-arrows'),$nav=$('#nav-dots > span'),slitslider=$('#slider').slitslider({onBeforeChange:function(slide,pos){$nav.removeClass('nav-dot-current');$nav.eq(pos).addClass('nav-dot-current');}}),init=function(){initEvents();},initEvents=function(){$navArrows.children(':last').on('click',function(){slitslider.next();return false;});$navArrows.children(':first').on('click',function(){slitslider.previous();return false;});$nav.each(function(i){$(this).on('click',function(event){var $dot=$(this);if(!slitslider.isActive()){$nav.removeClass('nav-dot-current');$dot.addClass('nav-dot-current');}
+slitslider.jump(i+1);return false;});});};return{init:init};})();Page.init();});
+//]]></script> 
+<script>//<![CDATA[
+jQuery(document).ready(function($){'use strict';$('.datepicker').datepicker();$("#phone").mask("(999) 999-99-99");$(".fancybox").fancybox();$.stellar({horizontalScrolling:false,verticalOffset:40,responsive:true});$('.owl-logos').owlCarousel({loop:true,margin:0,autoplay:true,responsiveClass:true,responsive:{0:{items:2,nav:false},600:{items:3,nav:false},960:{items:4,nav:false},1281:{items:4,nav:false}}});$('.home-gallery').owlCarousel({loop:true,margin:0,autoplay:true,responsiveClass:true,responsive:{0:{items:2,nav:false},600:{items:3,nav:false},960:{items:4,nav:false},1281:{items:4,nav:false}}});});jQuery('#accordion .panel-heading').on('click',function(){jQuery('#accordion .panel-heading').removeClass('actives');$(this).addClass('actives');});wow=new WOW({animateClass:'animated',offset:100});wow.init();window.addEventListener('DOMContentLoaded',function(){new QueryLoader2(document.querySelector("body"),{barColor:"#fff",backgroundColor:"#1dd2c8",percentage:true,barHeight:2,minimumTime:200,fadeOutTime:1000});});
+//]]></script>
+<script src="js/jquery.flexslider-min.js"></script>
+</body>
+</html>
