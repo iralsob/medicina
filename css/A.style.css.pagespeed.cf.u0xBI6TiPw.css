@@ -1730,6 +1730,7 @@ footer .email i {
 	background: transparent;
 }
 .flex-control-nav li a {
+	cursor: pointer;
 	height: 15px;
 	width: 15px;
 	margin-top: 13px;
